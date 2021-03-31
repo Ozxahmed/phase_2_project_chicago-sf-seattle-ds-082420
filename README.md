@@ -1,4 +1,6 @@
-Introduction:
+# Statistical Analysis of 2019 Housing Prices in King County, Washington
+
+## Introduction:
 How does one go about buying a house?
 A house is a large investment that can become a bad investment if done incorrectly.
 We took data from King County in Washington and looked at three specific attributes,
@@ -7,13 +9,13 @@ counties many waterfronts.
 We wanted to know, if any of these attributes increased the sales price of a home.
 
 
-Purpose of Analysis:
+## Purpose of Analysis:
 This project tries to validate the following questions regarding housing prices in King County for the year 2019:
 Does having higher square footage increase home sale price?
 Does having a porch increase home sale price?
 Does having a beach or lake front increase home sale price?
 
-Data:
+## Data:
 For our analysis, we used the King County House Sales dataset, narrowed down to all homes sold in 2019.
 The dataset itself was a combination of the following datatables, all of which we individually retrieved from King County's website:
 -Real Property Sales
@@ -29,7 +31,7 @@ Sales price between $50,000 and $2,000,000. As we discussed this would remove ou
 the bulk of sales in King County during 2019.
 Properties containing greater than 500 sq ft.
 
-Regression modeling¶:
+## Regression modeling¶:
 We deicded on our features using "gut feeling" and combing through the data:
 We chose the features which interested us in relation to the Sale Price, the "gut feeling"
 We looked at the correlation matrix and picked features which had a high correlation with Sale Price, which we hadn't picked earlier, the data combing.
@@ -42,7 +44,7 @@ For example: Builidng Grad (bldgr), became 12 seprate columns, with each represe
 
 For the final step we looked at the Variance inflation factor (VIF), to show us the corraltion between our features. We then excluded features which had a high p-value, and many that had high multicollinearity. This made our model more "True" and accurate to real life.
 
-Conclusion:
+## Conclusion:
 With our final model we were able to answer, that:
 Sqaure Footage of your Total Living does increase Sales Price.
 Having a porch does increase Sales Price.
