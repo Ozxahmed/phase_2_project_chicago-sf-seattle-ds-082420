@@ -2,12 +2,12 @@
 
 ![readme_pic](/readme_pic.jpg)
 
-There are many facotors which influence housing prices, and understanding how these factors affect property value can be extremely useful to people- from homeowners hoping to improve the market potential of their current homes, to policymakers making decisions about investment in public projects. 
+There are many factors which influence housing prices, and understanding how they affect property value can be extremely useful to people- from homeowners hoping to improve the market potential of their current homes, to policymakers making decisions about investment in public projects. 
 
-In this project we're going to analyze various factors when it comes to housing prices and see how they affect those prices.
+In this project we're going to analyze various housing related factors and see how they affect house prices.
 
 ## Introduction:
-How does one go about buying a house?
+So, how does one go about buying a house?
 A house is a large investment that can become a bad investment if done incorrectly.
 We took data from King County in Washington and looked at three specific attributes,
 Sqaure footage of livable space, does a home have a porch, and if it is located on one of King
