@@ -31,7 +31,7 @@ Sales price between $50,000 and $2,000,000. As we discussed this would remove ou
 the bulk of sales in King County during 2019.
 Properties containing greater than 500 sq ft.
 
-## Regression modeling¶:
+## Regression modeling:
 We deicded on our features using "gut feeling" and combing through the data:
 We chose the features which interested us in relation to the Sale Price, the "gut feeling"
 We looked at the correlation matrix and picked features which had a high correlation with Sale Price, which we hadn't picked earlier, the data combing.
